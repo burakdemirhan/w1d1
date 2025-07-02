@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Giriş Yap</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <h1>GİRİŞ YAP</h1>
-
+      <div class="form-container">
     <form action="">
-        <div>
+        <div class="email" >
         <label for="email">Emailinizi Giriniz</label>
         <input type="email" name="" id="email" required placeholder="burkidad@outlook.com">
     </div>
-    <div>
+    <div class="email">
         <label for="password">Şifrenizi Girin</label>
         <input type="password"  id="password" required placeholder="********">
-        <div> 
+        <div class="checkbox"> 
             <label for="remember">Şifreyi Hatırla</label>
             <input type="checkbox" id="remember">
         </div>
@@ -25,6 +28,7 @@
         <button type="submit">SUBMIT</button>
     </div>
     </form>
-    <a href="signup.html" target="_blank" rel="noopener noreferrer">Zaten Bir Hesabınız Var mı?</a>
+</div>  
+  <a   class="login-link" href="signup.html" target="_blank" rel="noopener noreferrer">Zaten Bir Hesabınız Var mı?</a>
 </body>
 </html>
